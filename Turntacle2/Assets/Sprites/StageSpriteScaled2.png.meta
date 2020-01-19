@@ -1,0 +1,221 @@
+fileFormatVersion: 2
+guid: 989b2a3ddc22425418ca61744b0636db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4687733772514971151
+    second: StageSpriteScaled2_0
+  - first:
+      213: -3515553024201945806
+    second: StageSpriteScaled2_1
+  - first:
+      213: -582480254700519823
+    second: StageSpriteScaled2_2
+  - first:
+      213: -5909063684737379665
+    second: StageSpriteScaled2_3
+  - first:
+      213: -3874198703734211275
+    second: StageSpriteScaled2_4
+  - first:
+      213: -7452286656658466287
+    second: StageSpriteScaled2_5
+  - first:
+      213: -5469671644170721970
+    second: StageSpriteScaled2_6
+  - first:
+      213: -4520613981939762695
+    second: StageSpriteScaled2_7
+  - first:
+      213: 662753561022431839
+    second: StageSpriteScaled2_8
+  - first:
+      213: 7540952019756523567
+    second: StageSpriteScaled2_9
+  - first:
+      213: 984429490819269180
+    second: StageSpriteScaled2_10
+  - first:
+      213: 4413938245354118718
+    second: StageSpriteScaled2_11
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: StageSpriteScaled2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 542
+        width: 945
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea753fb330cea74db316325c068d8eb
+      internalID: 4687733772514971151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageSpriteScaled2_1
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 542
+        width: 945
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e9d5d94f968df408542dafb862ca0b
+      internalID: -3515553024201945806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageSpriteScaled2_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 945
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d59771e0ff3b2e439aeb69e1b6c5a91
+      internalID: -582480254700519823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageSpriteScaled2_3
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 0
+        width: 945
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a9493a480565c4680e8427f230b9b2
+      internalID: -5909063684737379665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8b86f3d157ca34d4f8757ec79120384b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

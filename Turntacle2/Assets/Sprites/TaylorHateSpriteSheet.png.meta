@@ -1,0 +1,461 @@
+fileFormatVersion: 2
+guid: 92ea63cc463cd0d4a83b6e47beefc06e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7375169684369428020
+    second: TaylorHateSpriteSheet_0
+  - first:
+      213: -5682974397757183220
+    second: TaylorHateSpriteSheet_1
+  - first:
+      213: -4822882934273650045
+    second: TaylorHateSpriteSheet_2
+  - first:
+      213: 8987078042385524757
+    second: TaylorHateSpriteSheet_3
+  - first:
+      213: -3452216359358876991
+    second: TaylorHateSpriteSheet_4
+  - first:
+      213: 955003533239171322
+    second: TaylorHateSpriteSheet_5
+  - first:
+      213: -3356812743619827433
+    second: TaylorHateSpriteSheet_6
+  - first:
+      213: -8710105689161743282
+    second: TaylorHateSpriteSheet_7
+  - first:
+      213: 3438410048766455451
+    second: TaylorHateSpriteSheet_8
+  - first:
+      213: 7139001470291510205
+    second: TaylorHateSpriteSheet_9
+  - first:
+      213: -3234672745841051584
+    second: TaylorHateSpriteSheet_10
+  - first:
+      213: -5815708110439222078
+    second: TaylorHateSpriteSheet_11
+  - first:
+      213: 2142929630369495138
+    second: TaylorHateSpriteSheet_12
+  - first:
+      213: 4494286454561354429
+    second: TaylorHateSpriteSheet_13
+  - first:
+      213: 8209986530169015057
+    second: TaylorHateSpriteSheet_14
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TaylorHateSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1156
+        width: 310
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415849454e698dc44ad95c0ab2c45332
+      internalID: -7375169684369428020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaylorHateSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1156
+        width: 310
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1714cfa0923324fa3852c305ddd27e
+      internalID: -5682974397757183220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaylorHateSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1156
+        width: 316
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49d7bb941f04744e9fcfd8cc47d3e36
+      internalID: -4822882934273650045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaylorHateSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1156
+        width: 322
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef2b42f9eec4a845a4af5a1193fa62e
+      internalID: 8987078042385524757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaylorHateSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 772
+        width: 322
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2082a7773664d24f88bad398518f0b2
+      internalID: -3452216359358876991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaylorHateSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 772
+        width: 322
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef1fda07f0fb0b4eac050b41194538b
+      internalID: 955003533239171322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaylorHateSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 772
+        width: 322
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9885bad83912c45ab88ee85a79a727
+      internalID: -3356812743619827433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaylorHateSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 772
+        width: 322
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6737c8b222d1b649bc0851dec8dbe25
+      internalID: -8710105689161743282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaylorHateSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 388
+        width: 322
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3814162a47fcab94e989ad4f1b87daff
+      internalID: 3438410048766455451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaylorHateSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 388
+        width: 322
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b9cb1e415f79a4397334da30a79ee2
+      internalID: 7139001470291510205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaylorHateSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 388
+        width: 321
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 864a2082833005f4193c077dd3b25854
+      internalID: -3234672745841051584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaylorHateSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 388
+        width: 322
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3d5dac767f7f14f866595f7da6abc7
+      internalID: -5815708110439222078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaylorHateSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 4
+        width: 316
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5ea051c2e96c94489b73948d5f3e9b
+      internalID: 2142929630369495138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaylorHateSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 4
+        width: 310
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a690ed62178d2246acee67ed3f4b733
+      internalID: 4494286454561354429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaylorHateSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 4
+        width: 308
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f637931258856c24db7b902d995aa35c
+      internalID: 8209986530169015057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: def5778c4bb5cc045b36800f13121961
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

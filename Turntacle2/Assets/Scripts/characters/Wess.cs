@@ -33,15 +33,15 @@ public class Wess : Character
                 "Friendship with " + Game.roster[hate].name + " now at " + this.loveArray[hate]);
             Game.roster[love].loveArray[this.id] -= 4;
             Debug.Log("Wess' love isn't impressed by his jealousy! Friendship now at " +
-                Game.roster[love].loveArray[this.id]);
+                Game.roster[love].loveArray[this.id] );
         }
 
-        Debug.Log("Combo move cannot be used now!");
+        Debug.Log("Wess doesn't feel jealousy, combo move cannot be used now!");
 
 
     }
 
-    public override void doUltimate()
+    public override void doUltimate(List<int> teamate, List<int> ennemies)
     {
         //Attacks while rubbing hands together, deals extra damage and lowers other opponents
         //attack stat. 

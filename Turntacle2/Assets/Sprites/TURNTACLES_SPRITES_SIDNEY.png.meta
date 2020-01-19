@@ -14,6 +14,18 @@ TextureImporter:
   - first:
       213: -1806155698789635151
     second: SIDNEY_3_IDLE
+  - first:
+      213: -7626737552865638779
+    second: TURNTACLES_SPRITES_SIDNEY_0
+  - first:
+      213: -1049103627137759366
+    second: TURNTACLES_SPRITES_SIDNEY_1
+  - first:
+      213: -2682831251624377391
+    second: TURNTACLES_SPRITES_SIDNEY_2
+  - first:
+      213: 3278957537171943339
+    second: TURNTACLES_SPRITES_SIDNEY_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -96,85 +108,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SIDNEY_0_IDLE
+      name: TURNTACLES_SPRITES_SIDNEY_0
       rect:
         serializedVersion: 2
         x: 22
         y: 22
         width: 328
         height: 310
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a24fff32eb959524da052694119ffea3
-      internalID: -108815659927595636
+      spriteID: c5d4a66c3ba8470419498bd7f3fe07e6
+      internalID: -7626737552865638779
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SIDNEY_1_IDLE
+      name: TURNTACLES_SPRITES_SIDNEY_1
       rect:
         serializedVersion: 2
         x: 406
         y: 22
         width: 328
         height: 310
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9cc03c255587964ba90b48eda2a1c7e
-      internalID: 7882232358138547660
+      spriteID: eda38c0ba3a418e45810918bd7ba3c54
+      internalID: -1049103627137759366
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SIDNEY_2_IDLE
+      name: TURNTACLES_SPRITES_SIDNEY_2
       rect:
         serializedVersion: 2
         x: 796
         y: 22
         width: 304
         height: 298
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c34a9df155c64c8418a85f20a82b3571
-      internalID: -5958190880458962541
+      spriteID: 803e714a3c7c9f247b09fef2f758ca00
+      internalID: -2682831251624377391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SIDNEY_3_IDLE
+      name: TURNTACLES_SPRITES_SIDNEY_3
       rect:
         serializedVersion: 2
-        x: 1183
+        x: 1180
         y: 22
         width: 304
         height: 298
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2703185fe6ffe3940b9e1c63f1c051f8
-      internalID: -1806155698789635151
+      spriteID: 1fab5fef7f8840c4986e74c89bea84da
+      internalID: 3278957537171943339
       vertices: []
       indices: 
       edges: []

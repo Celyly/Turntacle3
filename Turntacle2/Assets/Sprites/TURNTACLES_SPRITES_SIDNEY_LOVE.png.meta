@@ -1,0 +1,245 @@
+fileFormatVersion: 2
+guid: 29734e8d25638454f86411f46d9c5d2f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1612467753900672719
+    second: TURNTACLES_SPRITES_SIDNEY_LOVE_0
+  - first:
+      213: 6055334182435319044
+    second: TURNTACLES_SPRITES_SIDNEY_LOVE_1
+  - first:
+      213: 9025127331470519922
+    second: TURNTACLES_SPRITES_SIDNEY_LOVE_2
+  - first:
+      213: 6251899551761491857
+    second: TURNTACLES_SPRITES_SIDNEY_LOVE_3
+  - first:
+      213: 978974123126821866
+    second: TURNTACLES_SPRITES_SIDNEY_LOVE_4
+  - first:
+      213: 3968969703218252690
+    second: TURNTACLES_SPRITES_SIDNEY_LOVE_5
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TURNTACLES_SPRITES_SIDNEY_LOVE_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 29
+        width: 438
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b57e43009ef7cf4e91687ec12a414f2
+      internalID: 1612467753900672719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TURNTACLES_SPRITES_SIDNEY_LOVE_1
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 29
+        width: 438
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2f0e9f5075e1846ae1751fb9e4148d
+      internalID: 6055334182435319044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TURNTACLES_SPRITES_SIDNEY_LOVE_2
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 421
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0adde4a2c5ca1c488d7bf9a28a50815
+      internalID: 9025127331470519922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TURNTACLES_SPRITES_SIDNEY_LOVE_3
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 429
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf93a31d403d1cf4493ea498af5a5de9
+      internalID: 6251899551761491857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TURNTACLES_SPRITES_SIDNEY_LOVE_4
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 29
+        width: 406
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6cdf69dd2a149745a17461e60b25bb7
+      internalID: 978974123126821866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TURNTACLES_SPRITES_SIDNEY_LOVE_5
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 29
+        width: 406
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162d221ac0e4fb040869b263143bda54
+      internalID: 3968969703218252690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 51fcc52a7e9b84540a26464312dfa932
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

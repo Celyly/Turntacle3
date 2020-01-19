@@ -6,14 +6,26 @@ using UnityEngine.UI;
 public class Game : MonoBehaviour
 {
 
-    public List<Character> roster = new List<Character>();
+    public static  List<Character> roster = new List<Character>();
     // stock les team
     public Team team1 = new Team();
     public Team team2 = new Team();
-    public GameObject gameplayCamera;
-    public GameObject charactSelectCamera;
+    //public GameObject gameplayCamera;
+    //public GameObject charactSelectCamera;
     public CharacterSelection characterSelection;
+    public Gameplay gamePlay;
 
+    public GameObject selectionGrid;
+    public GameObject Canvas;
+
+    public Text dialog;
+
+
+    public AudioSource fight;
+    public AudioSource title;
+
+    public bool fightIsPlaying = false;
+    
 
     public int value = 0;
 
@@ -31,31 +43,39 @@ public class Game : MonoBehaviour
         // load characters
         loadCharacters();
 
-
-        charactSelectCamera.GetComponent<Camera>().enabled = true;
-        gameplayCamera.GetComponent<Camera>().enabled = false;
-        charactSelectCamera.SetActive(true);
-        gameplayCamera.SetActive(false);
-       
     }
 
     // Update is called once per frame
 
-    public void teamSelectionDone()
-    {
-
-        current = State.Gameplay;
-
-
-    }
     void Update()
     {
 
 
         // hero select done change
         if (characterSelection.isDone) {
-            changeMainCamera();
+            
+            if (!fightIsPlaying)
+            {
+                fightIsPlaying = true;
+                fight.Play();
+                title.Stop();
+            }
+
             current = State.Gameplay;
+            selectionGrid.SetActive(false);
+            Canvas.SetActive(false);
+        }
+        else
+        {
+            if (fightIsPlaying)
+            {
+                fightIsPlaying = false;
+                title.Play();
+                fight.Stop();
+            }
+            current = State.Select;
+            selectionGrid.SetActive(true);
+            Canvas.SetActive(true);
         }
 
 
@@ -63,6 +83,7 @@ public class Game : MonoBehaviour
 
 
     }
+    /*
     public void changeMainCamera() {
 
         charactSelectCamera.GetComponent<Camera>().enabled = false;
@@ -72,6 +93,7 @@ public class Game : MonoBehaviour
 
 
     }
+    */
 
     public void loadCharacters()
     {

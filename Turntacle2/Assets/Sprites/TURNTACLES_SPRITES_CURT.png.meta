@@ -14,6 +14,18 @@ TextureImporter:
   - first:
       213: 7080582638332891053
     second: CURT_3_IDLE
+  - first:
+      213: 6201035645918572629
+    second: TURNTACLES_SPRITES_CURT_0
+  - first:
+      213: -2717838540104244781
+    second: TURNTACLES_SPRITES_CURT_1
+  - first:
+      213: -1972805516569916050
+    second: TURNTACLES_SPRITES_CURT_2
+  - first:
+      213: 9075109510713614366
+    second: TURNTACLES_SPRITES_CURT_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -96,85 +108,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CURT_0_IDLE
+      name: TURNTACLES_SPRITES_CURT_0
       rect:
         serializedVersion: 2
         x: 10
         y: 58
         width: 358
         height: 244
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e667d64d03eacbc4d9fee72142b7d046
-      internalID: -3828060927623604504
+      spriteID: 42b296f8393a658489d5090607a38ca2
+      internalID: 6201035645918572629
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CURT_1_IDLE
+      name: TURNTACLES_SPRITES_CURT_1
       rect:
         serializedVersion: 2
         x: 394
         y: 64
         width: 358
         height: 244
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed65e66f6cb336b4c87be08530113c95
-      internalID: 9137567671122217848
+      spriteID: 15ccd6c9433fc64448d578fe56c19e08
+      internalID: -2717838540104244781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CURT_2_IDLE
+      name: TURNTACLES_SPRITES_CURT_2
       rect:
         serializedVersion: 2
         x: 772
         y: 76
         width: 370
         height: 238
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb79f12f4e3302545ae545efb46889ee
-      internalID: 201581727749172847
+      spriteID: 072c7b9bf708f374b858e3638613d19f
+      internalID: -1972805516569916050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CURT_3_IDLE
+      name: TURNTACLES_SPRITES_CURT_3
       rect:
         serializedVersion: 2
         x: 1156
         y: 70
         width: 370
         height: 238
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db4569ac64a9fd442877055c68667664
-      internalID: 7080582638332891053
+      spriteID: 11e1b6a98d8dd9f44aa4a4352633b27f
+      internalID: 9075109510713614366
       vertices: []
       indices: 
       edges: []

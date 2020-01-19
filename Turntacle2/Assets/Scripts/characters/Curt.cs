@@ -4,23 +4,24 @@ using UnityEngine;
 
 public class Curt : Character
 {
-
-    public Curt()
-    {
+    
+    
+    public Curt() {
         // Everytime he wins, he loves himself more. The more he loves himself the more he should 
         // have a diffcult time with his abilities.
         // For example : His ultimate can be, He hits the person of has the more confidence in the team
         id = 0;
         name = "Kurt the Hurt";
         story = "Young emo cuttlefish that hates people, but none more than himself." +
-            "He also cannot stand confident people, he will attack without mercy.";
-        loveArray = new int[] { 0, 5, 10, 2, 7, 4 };
+            "He is stronger agaisn't fishes he hates."; 
+        loveArray = new int[]{0,5,10,2,7,4};
 
-
+        comboName = "Give a gift";
+        ultimateName = "Attack the healthy";
 
     }
 
-    public override void doComboAttack(List<int> teamate, List<int> ennemies)
+    public override void doComboAttack(List<int>teamate,List<int>ennemies)
     {
         //Condition : If the person he likes the most is in the roster, he will pass the knife to that character
         // If the character doesnt like him enough (char likes kurt > 5) he will refuse the knife.
@@ -28,10 +29,11 @@ public class Curt : Character
         // check if the char he likes the most is in the roster.
         int indexLikesMost = findMax(loveArray);
 
-        if (indexLikesMost == id)
+        if(indexLikesMost == id)
         {
+            
             Debug.Log("Kurt likes himself the most, he gifts himself another knife.");
-            strength += 10;
+            strength += 30;
             if (strength >= 100)
                 strength = 100;
             Debug.Log(" Kurt's strength is now : " + strength);
@@ -62,12 +64,49 @@ public class Curt : Character
             }
 
         }
-
+       
     }
 
-    public override void doUltimate()
+    
+    public override void doUltimate(List<int> teamate, List<int> ennemies)
     {
-        // He attacks the person with the most confidence in 
-        Debug.Log("No Ultimate for KURT for now !");
+        // Attack the weak 
+        // attacks the person with the least health the more he hates them 
+        List<int> currentRoster = new List<int>();
+        currentRoster.Add(teamate[0]);
+        currentRoster.Add(ennemies[0]);
+        currentRoster.Add(ennemies[1]);
+
+        if (!hasUlted)
+        {
+            int maxHealth = 0;
+            Character strongestChar = Game.roster[ennemies[0]];
+            foreach(int c in ennemies)
+            {
+                if (Game.roster[c].health > maxHealth)
+                {
+                    maxHealth = Game.roster[c].health;
+                    strongestChar = Game.roster[c];
+                }
+            }
+
+            // attacks the most healthy person depending on how much he hates him
+            int hate = 10 - loveArray[strongestChar.id];
+            List<Character> target = new List<Character>();
+            target.Add(strongestChar);
+            // get him stronger according to his hate to that character and attack
+            double oldAttPower = attackPower;
+            attackPower = hate * 2;
+            strongestChar.doAttack(target);
+            attackPower = oldAttPower;
+
+
+            hasUlted = true;
+        }
+        else
+        {
+            Debug.Log("Kurt has already ulted this round.");
+        }
+       
     }
 }

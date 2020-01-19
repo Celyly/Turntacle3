@@ -14,6 +14,18 @@ TextureImporter:
   - first:
       213: -3204928192990468805
     second: ELLIE_3_IDLE
+  - first:
+      213: 3763738862267692221
+    second: TURNTACLES_SPRITES_ELLIE_0
+  - first:
+      213: 5978323608714660840
+    second: TURNTACLES_SPRITES_ELLIE_1
+  - first:
+      213: -2577915436544940431
+    second: TURNTACLES_SPRITES_ELLIE_2
+  - first:
+      213: -6123533433335477445
+    second: TURNTACLES_SPRITES_ELLIE_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -96,85 +108,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ELLIE_0_IDLE
+      name: TURNTACLES_SPRITES_ELLIE_0
       rect:
         serializedVersion: 2
-        x: 49
+        x: 46
         y: 58
         width: 274
         height: 280
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c5c6d55bfedd9947b0def4e89c9a4af
-      internalID: -8781658132460367034
+      spriteID: 6f25277728721c348a631e44bf219e98
+      internalID: 3763738862267692221
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ELLIE_1_IDLE
+      name: TURNTACLES_SPRITES_ELLIE_1
       rect:
         serializedVersion: 2
         x: 430
         y: 64
         width: 274
         height: 280
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ed5f8a635755c54aa5804b50f22ea72
-      internalID: -1016571235906265817
+      spriteID: b56b99984024e814699c13a44fe7cc75
+      internalID: 5978323608714660840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ELLIE_2_IDLE
+      name: TURNTACLES_SPRITES_ELLIE_2
       rect:
         serializedVersion: 2
         x: 820
         y: 52
         width: 274
         height: 316
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84e1b7c302e03954e832edd8baad9c66
-      internalID: 8933852708993149090
+      spriteID: b2a181e689dbb6e45a46e3c91bac64e0
+      internalID: -2577915436544940431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ELLIE_3_IDLE
+      name: TURNTACLES_SPRITES_ELLIE_3
       rect:
         serializedVersion: 2
         x: 1204
         y: 40
         width: 274
         height: 316
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea26c76f291dc42449bc12b596d7153c
-      internalID: -3204928192990468805
+      spriteID: 2b5c361ad0f793742a5b12a3fc572cf0
+      internalID: -6123533433335477445
       vertices: []
       indices: 
       edges: []

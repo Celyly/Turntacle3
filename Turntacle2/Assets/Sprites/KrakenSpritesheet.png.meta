@@ -115,7 +115,7 @@ TextureImporter:
         y: 0
         width: 290
         height: 384
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -136,7 +136,7 @@ TextureImporter:
         y: 0
         width: 284
         height: 384
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -157,7 +157,7 @@ TextureImporter:
         y: 8
         width: 296
         height: 374
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -174,11 +174,11 @@ TextureImporter:
       name: KrakenSpritesheet_3_IDLE
       rect:
         serializedVersion: 2
-        x: 1160
+        x: 1154
         y: 2
         width: 290
         height: 374
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -199,7 +199,7 @@ TextureImporter:
         y: 2
         width: 290
         height: 374
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -216,11 +216,11 @@ TextureImporter:
       name: KrakenSpritesheet_5_IDLE
       rect:
         serializedVersion: 2
-        x: 1928
-        y: 8
-        width: 296
-        height: 374
-      alignment: 0
+        x: 1920
+        y: 2
+        width: 316
+        height: 382
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -237,11 +237,11 @@ TextureImporter:
       name: KrakenSpritesheet_6_IDLE
       rect:
         serializedVersion: 2
-        x: 2306
+        x: 2304
         y: 0
-        width: 284
+        width: 286
         height: 384
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -258,11 +258,11 @@ TextureImporter:
       name: KrakenSpritesheet_7_IDLE
       rect:
         serializedVersion: 2
-        x: 2690
+        x: 2685
         y: 0
-        width: 290
+        width: 295
         height: 384
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []

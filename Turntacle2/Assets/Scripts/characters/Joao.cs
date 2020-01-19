@@ -25,12 +25,12 @@ public class Joao : Character
             Game.roster[love].health += 30;
             Game.roster[love].loveArray[this.id] -= 3;
             Debug.Log("Oh no! Joao is too chill! He loses friendship... " +
-                Game.roster[love].name + "'s love of Joao is now " +
+                Game.roster[love].name + "'s love of Joao is now " + 
                 Game.roster[love].loveArray[this.id]);
         }
     }
 
-    public override void doUltimate()
+    public override void doUltimate(List<int> teamate, List<int> ennemies)
     {
         //Attacks while rubbing hands together, deals extra damage and lowers other opponents
         //attack stat. 

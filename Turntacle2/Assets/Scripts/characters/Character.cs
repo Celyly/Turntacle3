@@ -1,14 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public abstract class Character
 {
-    public static double attackPower = 15;
+    public static double attackPower = 30;
     public int id;
     public string name;
     public string story;
-    public Game Game;
+    // names of abilities
+    public string comboName,ultimateName;
+  
+
+    
 
 
     // arrays for relations
@@ -17,9 +22,11 @@ public abstract class Character
     //stats 
 
     public int health = 100;  // 0 to a hundred
+
     public int strength = 70; // from 0 to 100 : 70 is the base strength
     public int defense = 50;
-
+    public bool hasUlted = false;
+   
     // move fields
     public NormalAttack normalAttack = new NormalAttack();
     public UltimateAttack ultimateAttack;
@@ -37,18 +44,21 @@ public abstract class Character
     }
 
 
-    public void doAttack(List<Character> target)
-    {
-        double attackDmg = attackPower + attackPower * (double)(strength - 100) / 100 -
-            target[0].defense * attackPower;
+    public void doAttack(List<Character> target){
+
+        double attackDmg = attackPower + attackPower * (double)(strength - 100) / 100;
+        target[0].attack((int)attackDmg);
         Debug.Log(name + " attacked " + target[0].name + " for " + attackDmg + " damage.");
         Debug.Log(target[0].name + " has now " + target[0].health + " health");
     }
 
-    public abstract void doUltimate();
+
+
+    // CAN BE DONE ONCE PER GAME
+    public abstract void doUltimate(List<int> teamate, List<int> ennemies);
 
     public abstract void doComboAttack(List<int> teamate, List<int> ennemies);
-
+    
 
 
     public string printState()
@@ -76,16 +86,16 @@ public abstract class Character
             health = 0;
             return false;
         }
-        return true;
+         return true;
     }
-
-    public static int findMax(int[] array)
+    
+    public static int findMax(int[]array)
     {
         int max = 0;
         int indexMax = 0;
-        for (int i = 0; i < 6; i++)
+        for(int i = 0; i < 6; i++)
         {
-            if (array[i] > max)
+             if(array[i] > max)
             {
                 max = array[i];
                 indexMax = i;
@@ -98,9 +108,9 @@ public abstract class Character
     {
         int min = 100;
         int indexMin = 0;
-        for (int i = 0; i < 6; i++)
+        for(int i = 0; i < 6; i++)
         {
-            if (array[i] < min)
+            if(array[i] < min)
             {
                 min = array[i];
                 indexMin = i;
@@ -108,5 +118,12 @@ public abstract class Character
         }
 
         return indexMin;
+    }
+
+    public void reset()
+    {
+        health = 100;
+        hasUlted = false;
+        resetDefense();
     }
 }

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Taylor : Character
 {
+
     public Taylor()
     {
         name = "Taylor";
@@ -26,13 +27,13 @@ public class Taylor : Character
             Game.roster[love].strength *= 2;
             this.loveArray[love] -= 3;
             Debug.Log("Taylor's partner is weirded out!" +
-                " Friendship is now at " + this.loveArray[love]);
+                " Friendship is now at " + this.loveArray[love] );
         }
         Debug.Log("Combo move cannot be used now!");
     }
 
-    public override void doUltimate()
+    public override void doUltimate(List<int> teamate, List<int> ennemies)
     {
-
+      
     }
 }

@@ -11,6 +11,9 @@ TagManager:
   - kraken
   - joan
   - taylor
+  - attack_bar
+  - charge_bar
+  - dialog
   layers:
   - Default
   - TransparentFX
