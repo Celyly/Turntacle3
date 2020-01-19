@@ -1,0 +1,293 @@
+fileFormatVersion: 2
+guid: 7139510a3e556724f93c64298ef5411c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4550998223371765190
+    second: KrakenSpritesheet_0_IDLE
+  - first:
+      213: 1825194374940672627
+    second: KrakenSpritesheet_1_IDLE
+  - first:
+      213: -6075427180235132933
+    second: KrakenSpritesheet_2_IDLE
+  - first:
+      213: 8236066664337541476
+    second: KrakenSpritesheet_3_IDLE
+  - first:
+      213: -6727419272916225631
+    second: KrakenSpritesheet_4_IDLE
+  - first:
+      213: 4972326470001405121
+    second: KrakenSpritesheet_5_IDLE
+  - first:
+      213: -3438088616825815957
+    second: KrakenSpritesheet_6_IDLE
+  - first:
+      213: -9103434195270048117
+    second: KrakenSpritesheet_7_IDLE
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KrakenSpritesheet_0_IDLE
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 290
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd53d6e517ad24c428d06847cc144a9d
+      internalID: -4550998223371765190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrakenSpritesheet_1_IDLE
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 0
+        width: 284
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b872386fcb355b442ace05b555de7047
+      internalID: 1825194374940672627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrakenSpritesheet_2_IDLE
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 8
+        width: 296
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec5888653ab68545841aef2c127ebca
+      internalID: -6075427180235132933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrakenSpritesheet_3_IDLE
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 2
+        width: 290
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82fc62197e9646a4a8e3cc2d026a7bfb
+      internalID: 8236066664337541476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrakenSpritesheet_4_IDLE
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 2
+        width: 290
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ee2f4d4a5a03b4ba06eeee82ebfcdb
+      internalID: -6727419272916225631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrakenSpritesheet_5_IDLE
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 8
+        width: 296
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9debb9a82dca6f14b8d067fabd11affd
+      internalID: 4972326470001405121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrakenSpritesheet_6_IDLE
+      rect:
+        serializedVersion: 2
+        x: 2306
+        y: 0
+        width: 284
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c182abf343aca8546ac7c3cbee4391ce
+      internalID: -3438088616825815957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrakenSpritesheet_7_IDLE
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 0
+        width: 290
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc92a351fcd2294cad2dd0acb18303c
+      internalID: -9103434195270048117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 551d7d323e9136b4e83b6fb560f9e180
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
