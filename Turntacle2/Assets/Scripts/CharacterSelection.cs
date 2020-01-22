@@ -202,7 +202,12 @@ public class CharacterSelection : MonoBehaviour
                     game.team1.addCharacter(currentIndexSelection);
                     teamObj1.transform.GetChild(currentCharacterLoaded).GetChild(0).GetComponent<SpriteRenderer>().color = Color.white;
                     currentPlayer++;
+
                     currentColor = Color.red;
+                    Color lightred = currentColor;
+                    lightred.a = 0.5f;
+                    currentColor = lightred;
+
                     teamObj1.transform.GetChild(currentCharacterLoaded).GetChild(0).tag = choices[currentIndexSelection].transform.GetChild(0).tag;
                     tags.Add(choices[currentIndexSelection].transform.GetChild(0).tag.ToString());
                     teamObj1.transform.GetChild(currentCharacterLoaded).GetChild(0).GetComponent<Animator>().enabled = true;
@@ -216,8 +221,6 @@ public class CharacterSelection : MonoBehaviour
             {
                 if (!containsCharacterIn(teamObj2))
                 {
-
-
                     if (currentIndexSelection == 0) curt.Play();
                     if (currentIndexSelection == 1) sydney.Play();
                     if (currentIndexSelection == 2) ellie.Play();
@@ -243,8 +246,6 @@ public class CharacterSelection : MonoBehaviour
                     {
                         // CHARACTER SELECT IS DONE
                         isDone = true;
-                        title1.GetComponent<Animator>().enabled = false;
-                        title2.GetComponent<Animator>().enabled = false;
                         title1.SetActive(false);
                         title2.SetActive(false);
                         game.gamePlay.gameObject.SetActive(true);
