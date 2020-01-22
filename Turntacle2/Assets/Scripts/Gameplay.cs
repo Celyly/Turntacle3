@@ -32,7 +32,7 @@ public class Gameplay : MonoBehaviour
     public bool waitingForTargetInput = false;
     public bool waitingForMoveInput = false;
     public bool debuggedOnce = false;
-    string moveInput = "",targetInput = "";
+    string moveInput = "", targetInput = "";
 
     public GameObject sprite1, sprite2, sprite3, sprite4;
     public GameObject hp1, hp2, hp3, hp4;
@@ -56,8 +56,8 @@ public class Gameplay : MonoBehaviour
         debuggedOnce = false;
         moveInput = "";
         targetInput = "";
-       
-}
+
+    }
 
     // Update is called once per frame
     void Update()
@@ -74,14 +74,15 @@ public class Gameplay : MonoBehaviour
             hp2.transform.parent.gameObject.SetActive(true);
             hp3.transform.parent.gameObject.SetActive(true);
             hp4.transform.parent.gameObject.SetActive(true);
-            hp1.GetComponent<Bar>().setValue(Game.roster[team1.playingCharacters[0]].health/100f, false);
-            hp2.GetComponent<Bar>().setValue(Game.roster[team1.playingCharacters[1]].health/100f,false);
-            hp3.GetComponent<Bar>().setValue(Game.roster[team2.playingCharacters[0]].health/100f, false);
-            hp4.GetComponent<Bar>().setValue(Game.roster[team2.playingCharacters[1]].health/100f, false);
+            hp1.GetComponent<Bar>().setValue(Game.roster[team1.playingCharacters[0]].health / 100f, false);
+            hp2.GetComponent<Bar>().setValue(Game.roster[team1.playingCharacters[1]].health / 100f, false);
+            hp3.GetComponent<Bar>().setValue(Game.roster[team2.playingCharacters[0]].health / 100f, false);
+            hp4.GetComponent<Bar>().setValue(Game.roster[team2.playingCharacters[1]].health / 100f, false);
 
 
-            if (Game.roster[team1.playingCharacters[0]].health == 0){
-              
+            if (Game.roster[team1.playingCharacters[0]].health == 0)
+            {
+
                 sprite1.transform.GetChild(0).GetComponent<SpriteRenderer>().flipY = true;
                 sprite1.transform.GetChild(0).GetComponent<SpriteRenderer>().color = Color.black;
                 Color tmp = sprite1.transform.GetChild(0).GetComponent<SpriteRenderer>().color;
@@ -89,10 +90,10 @@ public class Gameplay : MonoBehaviour
                 sprite1.transform.GetChild(0).GetComponent<SpriteRenderer>().color = tmp;
 
                 sprite1.transform.GetChild(0).GetComponent<Animator>().enabled = false;
-                
-                }
-                if (Game.roster[team1.playingCharacters[1]].health == 0)
-                {
+
+            }
+            if (Game.roster[team1.playingCharacters[1]].health == 0)
+            {
                 sprite2.transform.GetChild(0).GetComponent<SpriteRenderer>().flipY = true;
                 sprite2.transform.GetChild(0).GetComponent<SpriteRenderer>().color = Color.black;
                 Color tmp = sprite2.transform.GetChild(0).GetComponent<SpriteRenderer>().color;
@@ -102,8 +103,8 @@ public class Gameplay : MonoBehaviour
             }
 
 
-                if (Game.roster[team2.playingCharacters[0]].health == 0)
-                {
+            if (Game.roster[team2.playingCharacters[0]].health == 0)
+            {
                 sprite3.transform.GetChild(0).GetComponent<SpriteRenderer>().flipY = true;
                 sprite3.transform.GetChild(0).GetComponent<SpriteRenderer>().color = Color.black;
                 Color tmp = sprite3.transform.GetChild(0).GetComponent<SpriteRenderer>().color;
@@ -111,8 +112,8 @@ public class Gameplay : MonoBehaviour
                 sprite3.transform.GetChild(0).GetComponent<SpriteRenderer>().color = tmp;
                 sprite3.transform.GetChild(0).GetComponent<Animator>().enabled = false;
             }
-                if (Game.roster[team2.playingCharacters[1]].health == 0)
-                {
+            if (Game.roster[team2.playingCharacters[1]].health == 0)
+            {
                 sprite4.transform.GetChild(0).GetComponent<SpriteRenderer>().flipY = true;
                 sprite4.transform.GetChild(0).GetComponent<SpriteRenderer>().color = Color.black;
                 Color tmp = sprite4.transform.GetChild(0).GetComponent<SpriteRenderer>().color;
@@ -146,20 +147,23 @@ public class Gameplay : MonoBehaviour
             if (turn == 1)
             {
                 if (!waitingForMoveInput && !waitingForTargetInput)
-                    dialogText.text = " It's Player 1's turn!\n\n";
-                    //Debug.Log(" It's the turn of player 1");
+                {
+                    Debug.Log(" It's Player 1's turn!\n\n");
+                }
+                //Debug.Log(" It's the turn of player 1");
                 if (indexCurrentChar == 0)
                 {
                     if (!waitingForMoveInput && !waitingForTargetInput)
-                        
+                        /*
                         if (dialogText.text != null)
                         {
                             string tampon = dialogText.text;
-                            dialogText.text = tampon + "Enter Input for " + Game.roster[team1.playingCharacters[indexCurrentChar]].name + " in team 1 \n A - attack\n S - ultimate\n D - combo\n";
+                            tampon += tampon + "Enter Input for " + Game.roster[team1.playingCharacters[indexCurrentChar]].name + " in team 1 \n A - attack\n S - ultimate\n D - combo\n";
+                            displayText(tampon);
                         }
-                        else
-                            dialogText.text = "Enter Input for " + Game.roster[team1.playingCharacters[indexCurrentChar]].name + " in team 1 \n A - attack\n S - ultimate\n D - combo";
-                        //Debug.Log("Enter Input for " + Game.roster[team1.playingCharacters[indexCurrentChar]].name + " in team 1 ( A - attack S - ultimate D - combo)");
+                        else*/
+                        dialogText.text = "Enter Input for " + Game.roster[team1.playingCharacters[indexCurrentChar]].name + " in team 1 \n A - attack\n S - ultimate\n D - combo";
+                    //Debug.Log("Enter Input for " + Game.roster[team1.playingCharacters[indexCurrentChar]].name + " in team 1 ( A - attack S - ultimate D - combo)");
 
                     waitingForMoveInput = true;
                     if (moveInput != "")
@@ -185,8 +189,8 @@ public class Gameplay : MonoBehaviour
                 else
                 {
                     if (!waitingForMoveInput && !waitingForTargetInput)
-                         dialogText.text = "Enter Input for " + Game.roster[team1.playingCharacters[indexCurrentChar]].name + " in team 1 \n A - attack\n S - ultimate\n D - combo";
-                       // Debug.Log("Enter Input for " + Game.roster[team1.playingCharacters[indexCurrentChar]].name + " in team 1 ( A - attack S - ultimate D - combo)");
+                        dialogText.text = "Enter Input for " + Game.roster[team1.playingCharacters[indexCurrentChar]].name + " in team 1 \n A - attack\n S - ultimate\n D - combo";
+                    // Debug.Log("Enter Input for " + Game.roster[team1.playingCharacters[indexCurrentChar]].name + " in team 1 ( A - attack S - ultimate D - combo)");
                     waitingForMoveInput = true;
                     if (moveInput != "")
                     {
@@ -213,14 +217,14 @@ public class Gameplay : MonoBehaviour
             {
                 if (!waitingForMoveInput && !waitingForTargetInput)
                     dialogText.text = " It's the turn of player 2";
-                    //Debug.Log(" It's the turn of player 2");
+                //Debug.Log(" It's the turn of player 2");
                 if (indexCurrentChar == 0)
                 {
                     if (!waitingForMoveInput && !waitingForTargetInput)
-                            dialogText.text = "It's the turn of player 2 \n\nEnter Input for " + Game.roster[team2.playingCharacters[indexCurrentChar]].name + " in team 2 \n A - attack\n S - ultimate\n D - combo";
-                        //Debug.Log("Enter Input for " + Game.roster[team2.playingCharacters[indexCurrentChar]].name + " in team 2 ( A - attack S - ultimate D - combo)");
+                        dialogText.text = "It's the turn of player 2 \n\nEnter Input for " + Game.roster[team2.playingCharacters[indexCurrentChar]].name + " in team 2 \n A - attack\n S - ultimate\n D - combo";
+                    //Debug.Log("Enter Input for " + Game.roster[team2.playingCharacters[indexCurrentChar]].name + " in team 2 ( A - attack S - ultimate D - combo)");
 
-                        waitingForMoveInput = true;
+                    waitingForMoveInput = true;
                     if (moveInput != "")
                     {
                         waitingForMoveInput = false;
@@ -272,24 +276,26 @@ public class Gameplay : MonoBehaviour
         }
         else
         {
-            
-            foreach(Character c in Game.roster)
+            if (!!characterSelection.isDone && isPlaying)
             {
-                c.reset();
+                foreach (Character c in Game.roster)
+                {
+                    c.reset();
+                }
+                characterSelection.isDone = false;
+                characterSelection.enabled = true;
+                speech.SetActive(false);
+                this.gameObject.SetActive(false);
+                toggleAllAnimation(false);
+                flipAllSprites(false);
+                characterSelection.Start();
+                characterSelection.initialiseAllHeroes();
+                if (team1.playingCharacters != null)
+                    team1.playingCharacters.Clear();
+                if (team2.playingCharacters != null)
+                    team2.playingCharacters.Clear();
             }
-            characterSelection.isDone = false;
-            characterSelection.enabled = true;
-            speech.SetActive(false);
-            this.gameObject.SetActive(false);
-            toggleAllAnimation(false);
-            flipAllSprites(false);
-            characterSelection.Start();
-            characterSelection.initialiseAllHeroes();
-            if(team1.playingCharacters != null)
-                team1.playingCharacters.Clear();
-            if(team2.playingCharacters != null)
-                team2.playingCharacters.Clear();
-            
+
         }
     }
 
@@ -311,7 +317,7 @@ public class Gameplay : MonoBehaviour
 
     }
 
-    public void applyMoveInput(Team enemyTeam,Team gentilleTeam,Character currentCharacter,int indexTeamate)
+    public void applyMoveInput(Team enemyTeam, Team gentilleTeam, Character currentCharacter, int indexTeamate)
     {
         if (moveInput == "a")
         {
@@ -320,7 +326,7 @@ public class Gameplay : MonoBehaviour
 
             if (!waitingForTargetInput)
                 dialogText.text = "Waiting for a target input ... \n\n Choose A on your keyboard to select the first ennemy or S for the second enemy";
-               // Debug.Log("Waiting for a target input chose A (for the first) or S (for the second on your keyboard");
+            // Debug.Log("Waiting for a target input chose A (for the first) or S (for the second on your keyboard");
             waitingForTargetInput = true;
 
             if (targetInput != "")
@@ -410,15 +416,16 @@ public class Gameplay : MonoBehaviour
 
                 //Debug.Log("doing the combo attack");
                 input = "d";
-                
+
             }
             if (Input.GetKeyDown(KeyCode.S)) //COMBO
             {
                 dialogText.text = "Inputting the ultimate attack";
-               // Debug.Log("Inputting the ultimate attack");
+                // Debug.Log("Inputting the ultimate attack");
                 input = "s";
             }
-        }else if (waitingForTargetInput)
+        }
+        else if (waitingForTargetInput)
         {
             if (Input.GetKeyDown(KeyCode.A)) //ATTACK
             {
@@ -440,8 +447,6 @@ public class Gameplay : MonoBehaviour
         return input;
 
     }
-    
 }
-
 
 

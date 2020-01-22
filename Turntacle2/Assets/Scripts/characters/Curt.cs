@@ -12,7 +12,7 @@ public class Curt : Character
         // For example : His ultimate can be, He hits the person of has the more confidence in the team
         id = 0;
         name = "Kurt the Hurt";
-        story = "Young emo cuttlefish that hates people, but none more than himself." +
+        story = "Young emo cuttlefish that hates people, but none more than himself.\n" +
             "He is stronger agaisn't fishes he hates."; 
         loveArray = new int[]{0,5,10,2,7,4};
 

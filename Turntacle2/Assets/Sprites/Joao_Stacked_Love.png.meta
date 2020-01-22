@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: 72de2068fd1de0c488b0538cff2141ab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2318833492581110747
+    second: Joao_Stacked_Love_0
+  - first:
+      213: 432846615015780991
+    second: Joao_Stacked_Love_1
+  - first:
+      213: -6289825732491329385
+    second: Joao_Stacked_Love_2
+  - first:
+      213: -2942865580971224511
+    second: Joao_Stacked_Love_3
+  - first:
+      213: 1747832866174438469
+    second: Joao_Stacked_Love_4
+  - first:
+      213: 3931097945362889137
+    second: Joao_Stacked_Love_5
+  - first:
+      213: 5528341289121751344
+    second: Joao_Stacked_Love_6
+  - first:
+      213: -2357130240904855367
+    second: Joao_Stacked_Love_7
+  - first:
+      213: 8365438849535094724
+    second: Joao_Stacked_Love_8
+  - first:
+      213: 758735667382467074
+    second: Joao_Stacked_Love_9
+  - first:
+      213: 9000368637057395247
+    second: Joao_Stacked_Love_10
+  - first:
+      213: 1490294088291376524
+    second: Joao_Stacked_Love_11
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Joao_Stacked_Love_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 544
+        width: 446
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75363c1e1576fce4dbb3e6d47afc359c
+      internalID: -2318833492581110747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joao_Stacked_Love_1
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 837
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f203d86c9724342bdb6164ad63e3f9
+      internalID: 432846615015780991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joao_Stacked_Love_2
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 517
+        width: 462
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618e44b1c54e9ef459df3d644cee23d4
+      internalID: -6289825732491329385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joao_Stacked_Love_3
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 549
+        width: 443
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a6ec2af5119d8409ebb5968338c4d3
+      internalID: -2942865580971224511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joao_Stacked_Love_4
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 845
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e80306c21f7fa42bc1c86b21588c01
+      internalID: 1747832866174438469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joao_Stacked_Love_5
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 549
+        width: 443
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da988f62e603209409420047147e8ceb
+      internalID: 3931097945362889137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joao_Stacked_Love_6
+      rect:
+        serializedVersion: 2
+        x: 1973
+        y: 845
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ee463f75556e847809a4acb717ef09
+      internalID: 5528341289121751344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joao_Stacked_Love_7
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 37
+        width: 443
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117731dfd47791c42acdcfe5b2556206
+      internalID: -2357130240904855367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joao_Stacked_Love_8
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 37
+        width: 443
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8093ca9b11d14478369c6ae12b07ca
+      internalID: 8365438849535094724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joao_Stacked_Love_9
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 349
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ced7fd97fbdc464f863a342d465d0be
+      internalID: 758735667382467074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joao_Stacked_Love_10
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 5
+        width: 462
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b638e98e10a4c4cb2584d78a4e4b51
+      internalID: 9000368637057395247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joao_Stacked_Love_11
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 32
+        width: 446
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736a0c3369500064da00ba23c5c12d8c
+      internalID: 1490294088291376524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

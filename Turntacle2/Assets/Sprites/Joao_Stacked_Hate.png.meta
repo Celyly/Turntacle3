@@ -1,0 +1,439 @@
+fileFormatVersion: 2
+guid: fe54c4fa59c0c2f469235ac223f20377
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7074685479468103900
+    second: Joao_Stacked_Hate_0
+  - first:
+      213: -4529101614996910683
+    second: Joao_Stacked_Hate_1
+  - first:
+      213: 6022440743375878042
+    second: Joao_Stacked_Hate_2
+  - first:
+      213: -798131641037203683
+    second: Joao_Stacked_Hate_3
+  - first:
+      213: -3616549279826605927
+    second: Joao_Stacked_Hate_4
+  - first:
+      213: 3053052681642458954
+    second: Joao_Stacked_Hate_5
+  - first:
+      213: 1673446914040446698
+    second: Joao_Stacked_Hate_6
+  - first:
+      213: -105756908196071030
+    second: Joao_Stacked_Hate_7
+  - first:
+      213: -8564746702444677474
+    second: Joao_Stacked_Hate_8
+  - first:
+      213: 4497686080123837084
+    second: Joao_Stacked_Hate_9
+  - first:
+      213: 6007770801014316497
+    second: Joao_Stacked_Hate_10
+  - first:
+      213: -6369214700203879830
+    second: Joao_Stacked_Hate_11
+  - first:
+      213: -6579918434376947911
+    second: Joao_Stacked_Hate_12
+  - first:
+      213: -5297450605428617772
+    second: Joao_Stacked_Hate_13
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Joao_Stacked_Hate_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 544
+        width: 446
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d280441ef9f474fb0c6bf15b0d3b79
+      internalID: -7074685479468103900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joao_Stacked_Hate_1
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 517
+        width: 462
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b6d114528398b4b943713fa809cfe2
+      internalID: -4529101614996910683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joao_Stacked_Hate_2
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 549
+        width: 443
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa0bd57ac064564f9397ee488f75ec9
+      internalID: 6022440743375878042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joao_Stacked_Hate_3
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 549
+        width: 443
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b2e1564dc097e43b3f278d262d87f1
+      internalID: -798131641037203683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joao_Stacked_Hate_4
+      rect:
+        serializedVersion: 2
+        x: 1997
+        y: 749
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf66ec2303cb36a48a3c048a4ce37bfd
+      internalID: -3616549279826605927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joao_Stacked_Hate_5
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 669
+        width: 70
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a0ad07349ba8941a99efbdd484d48c
+      internalID: 3053052681642458954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joao_Stacked_Hate_6
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 669
+        width: 70
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a3b5b65d33dea4a9a3eb15e1fd75c3
+      internalID: 1673446914040446698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joao_Stacked_Hate_7
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 669
+        width: 70
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea159b675a7752d469629bc08430cb17
+      internalID: -105756908196071030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joao_Stacked_Hate_8
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 173
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50febdd4274b1694ab5ecadc198d61ca
+      internalID: -8564746702444677474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joao_Stacked_Hate_9
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 37
+        width: 443
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0cc05d823c7334b83b4ed50839819e
+      internalID: 4497686080123837084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joao_Stacked_Hate_10
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 173
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bae3056bdace1f4bb2e395f278ee22e
+      internalID: 6007770801014316497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joao_Stacked_Hate_11
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 37
+        width: 443
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781422236bdb9324e9ddfdbe23828697
+      internalID: -6369214700203879830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joao_Stacked_Hate_12
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 5
+        width: 462
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d72f8098d9b62844b189e19e70ff5da
+      internalID: -6579918434376947911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joao_Stacked_Hate_13
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 32
+        width: 446
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acef555ab15057941a45e5b97a3e0f91
+      internalID: -5297450605428617772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

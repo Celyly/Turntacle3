@@ -1,0 +1,439 @@
+fileFormatVersion: 2
+guid: fd05c74c31491bc4993deafb73946e70
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3676417708141452785
+    second: Kraken_Stacked_Love_0
+  - first:
+      213: 303031729660757086
+    second: Kraken_Stacked_Love_1
+  - first:
+      213: -2093659674849724705
+    second: Kraken_Stacked_Love_2
+  - first:
+      213: -8929382036271558693
+    second: Kraken_Stacked_Love_3
+  - first:
+      213: -1894521357156826354
+    second: Kraken_Stacked_Love_4
+  - first:
+      213: 8911717478991235300
+    second: Kraken_Stacked_Love_5
+  - first:
+      213: 8624592970629927697
+    second: Kraken_Stacked_Love_6
+  - first:
+      213: -8366369212704497279
+    second: Kraken_Stacked_Love_7
+  - first:
+      213: -1226094974775803386
+    second: Kraken_Stacked_Love_8
+  - first:
+      213: 6416874671278107099
+    second: Kraken_Stacked_Love_9
+  - first:
+      213: -7812132016920088107
+    second: Kraken_Stacked_Love_10
+  - first:
+      213: 3615550021811870593
+    second: Kraken_Stacked_Love_11
+  - first:
+      213: -8340547997590043655
+    second: Kraken_Stacked_Love_12
+  - first:
+      213: 133152499883661183
+    second: Kraken_Stacked_Love_13
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kraken_Stacked_Love_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 541
+        width: 382
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2057a2eb7f8614f8f00ec4f782ba23
+      internalID: 3676417708141452785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kraken_Stacked_Love_1
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 533
+        width: 374
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0a9689f6459684485e8405b06f3903
+      internalID: 303031729660757086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kraken_Stacked_Love_2
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 525
+        width: 390
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926b46d1b6f8b2b4ea4fcb60a0726834
+      internalID: -2093659674849724705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kraken_Stacked_Love_3
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 725
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd98387d835c9d428291a1f56b6066e
+      internalID: -8929382036271558693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kraken_Stacked_Love_4
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 517
+        width: 382
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b21d2a203758d44292191cc05a40de0
+      internalID: -1894521357156826354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kraken_Stacked_Love_5
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 725
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960789bc03683b747bd85ef19245cc02
+      internalID: 8911717478991235300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kraken_Stacked_Love_6
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 382
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf62c5779ba4c8e43a105ab9529e51b8
+      internalID: 8624592970629927697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kraken_Stacked_Love_7
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 0
+        width: 390
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f62cf9d2ff3a7a4f8493cb08bde1113
+      internalID: -8366369212704497279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kraken_Stacked_Love_8
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 381
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a45bf9c53a0c3849904eec677982589
+      internalID: -1226094974775803386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kraken_Stacked_Love_9
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 21
+        width: 374
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7f9d2e815a5ef45aa3a672c063f586
+      internalID: 6416874671278107099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kraken_Stacked_Love_10
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 29
+        width: 382
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0e31ff1bc550840b83754b218ecbeb
+      internalID: -7812132016920088107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kraken_Stacked_Love_11
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 341
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054f2210e227e214291d0604df24b463
+      internalID: 3615550021811870593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kraken_Stacked_Love_12
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 213
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28f5d162934164438c5af3e55a55a38
+      internalID: -8340547997590043655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kraken_Stacked_Love_13
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 213
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18a1ee1f09cf3a4bb0c132f41d10d12
+      internalID: 133152499883661183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
